@@ -1,0 +1,132 @@
+   /* Yasin Rehla Fakir - 2º DAW */
+   * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body, h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
+        background-color: #A62103;
+    }
+
+    #div1 {
+        text-align: center;
+        background-color: #A62103;
+        font-family: Dhurjati;
+        font-weight: bold;
+        font-size: 2.3vw;
+        color: #D9D8D7;
+    }
+
+    /*<======== NAV ========>*/
+
+    nav {
+        top: 0;
+        position: sticky;
+        padding: 10px;
+        margin: 15px 20px 0px 20px;
+        font-family: Dhurjati;
+        background-color: #152620;
+        color: #D9D8D7;
+        border-radius: 10px;
+        height: 17vw;
+        font-size: 1.2vw;
+    }
+
+    nav li {
+        margin-right: 10px;
+        margin-left: 10px;
+        display: grid;
+        
+    }
+
+    nav li:hover{
+        text-decoration: underline #A62103;
+        transform: scale(1.1);
+    }
+
+    /*<======== MAIN ========>*/
+
+    main{
+        display: grid;
+        grid-template-columns: 10% 90%;
+        gap: 20px;
+        background-color: #A62103;
+        margin-top: 55px;
+    }
+
+    .arriba{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+        margin: 15px;
+        border-radius: 10px;
+        background-color: #D9D8D7;
+    }
+
+    .abajo{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        margin: 15px;
+        border-radius: 10px;
+        background-color: #D9D8D7;
+    }
+
+    main div {
+        background-color: #152620;
+        border: 1px solid #D9D8D7;
+        padding: 1em;
+        margin: 20px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    main img {
+        max-width:100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .parrafo {
+        color: #D9D8D7;
+        font-weight: bold;
+        background-color: #591202;
+        font-size: 1.2vw;
+    }
+
+    /*<======== FOOTER ========>*/
+
+    footer {
+        background-color: #152620;
+        padding: 10px;
+        width: 100%;
+        font-family: 'Dhurjati', sans-serif;
+        font-size: 1.3vw;
+        font-weight: bold;
+        color: #D9D8D7;
+        margin-top: 25px;
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
+    
+    #redes a {
+        margin-right: 10px;
+    }
+
+    #copyright {
+        text-align: center;
+        margin-top: 10px;
+        background-color: #152620;
+    }
+    
+    #redes img {
+        width: 30px;
+        height: auto;
+    }
